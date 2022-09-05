@@ -3,7 +3,7 @@
 $login = false;
 $showError = false;
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-    include 'partials/dbconnect.php';
+    include 'dbconnect.php';
     $username = $_POST["username"];
     $password = $_POST["password"]; 
     
@@ -40,7 +40,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </head>
 
 <body>
-  <?php require 'partials/navbar.php';
+  <?php require 'navbar.php';
   ?>
 
   <?php
@@ -65,7 +65,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-md-9 col-lg-6 col-xl-5">
-          <img src="img/signup.webp" class="img-fluid" alt="image">
+          <img src="signup.webp" class="img-fluid" alt="image">
         </div>
         <div class="col-md-8 col-lg-6 login_form col-xl-4 offset-xl-1">
           <form class="form_login" action="/loginsystem/login.php" method="post">
