@@ -2,7 +2,7 @@
 $showAlert = false;
 $showError = false;
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-    include 'partials/dbconnect.php';
+    include 'dbconnect.php';
     $username = $_POST["username"];
     $password = $_POST["password"];
     $cpassword = $_POST["cpassword"];
@@ -47,7 +47,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </head>
 
 <body>
-  <?php require 'partials/navbar.php';
+  <?php require 'navbar.php';
   ?>
 
   <?php
@@ -114,7 +114,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
                 </div>
                 <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
-                  <img src="img/signup.webp" class="img-fluid" alt=" image">
+                  <img src="signup.webp" class="img-fluid" alt=" image">
                 </div>
               </div>
             </div>
