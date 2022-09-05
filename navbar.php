@@ -3,7 +3,7 @@
 <nav class="navbar navbar-expand-lg ">
     <div class="container">
       <a class="navbar-brand me-2" href="">
-        <img src="img/logo3.jpg" alt=" Logo" class="logo" />
+        <img src="logo3.jpg" alt=" Logo" class="logo" />
       </a>
 
       <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
